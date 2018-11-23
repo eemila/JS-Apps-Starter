@@ -1,0 +1,86 @@
+.container {
+    background-color: #fff; 
+    padding: 25px 25px 200px 25px;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+.header {
+    padding: 70px 0 70px 0;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 30px 0; 
+    border-radius: 5px; 
+    background-image: url('C:/Users/Emilia/Desktop/programowanie listopadowe/to do list/images/header.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.header h1 {
+    color: #441e01;  
+    font-size: 100px;
+    font-weight: 700; 
+}
+
+.form {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 40%; 
+    background-image: url('C:/Users/Emilia/Desktop/programowanie listopadowe/to do list/images/form.jpg'); 
+    background-size: 100%;
+    background-position: top; 
+    background-repeat: no-repeat; 
+    height: 450px; 
+    
+}
+
+#task, 
+#deadline, 
+#prior { 
+    line-height: 40px; 
+    padding: 8px;
+    color: #441e01; 
+}
+
+.add-btn button {
+    background-color:#441e01;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    box-shadow: #747468;
+    cursor: pointer;
+    margin: 20px 0 0 0; 
+    padding: 5px 20px 5px 20px;
+}
+
+.task-table { 
+    border-radius: 5px;  
+    color: #441e01;  
+    padding-bottom: 200px; 
+    width: 60%;
+    margin-left: 20px; 
+    font-size: 30px; 
+    background-image: url('C:/Users/Emilia/Desktop/programowanie listopadowe/to do list/images/list.jpg'); 
+    background-size: cover;
+}
+
+table {
+    margin: 0 auto; 
+    padding-top: 40px; 
+}
+
+.fillin {
+    display: flex;
+}
+
+footer {
+    color: #fff; 
+    background-color: #441e01; 
+    padding: 15px; 
+    align-content: center; 
+    margin-top: 30px; 
+}
+
